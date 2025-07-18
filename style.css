@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    background-image: url(/wind-girl-hair-silhouette.jpg);
+    
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.mainheader .logo{
+    color: white;
+}
+.logo h1{
+text-transform: uppercase;
+font-size: 25px;
+border-bottom: 2px solid rgb(white);
+cursor: pointer;
+}
+.logo h1:hover{
+    color: rgb(6,238,255);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+     cursor: pointer;
+}
+nav ul li a:hover{
+color: rgb(4,250,225) ;
+}
+.headerbutton{
+    word-spacing: 20px;
+}
+.headerbutton button{
+    text-transform: uppercase;
+    color: aqua;
+    background-color: black;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 2px solid white ;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.headerbutton button:hover{
+    color: black;
+    background-color: turquoise;
+}
+.centertext{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 50%;
+    height: auto;
+}
+.centertext h1{
+    font-size: 100px;
+    color: rgb(5,237.253);
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+.gradient-text {
+    font-size: 88px;
+    font-weight: bold;
+    background: linear-gradient(90deg,black, rgb(255, 133, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.centertext h2{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: rgb(249,252,252);
+}
+.centertext p{
+    letter-spacing: 1px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.textbutton{
+    word-spacing: 20px;
+}
+.textbutton button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: black;
+    color:rgb(2,252,252);
+    border: 2px solid white;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.textbutton button:hover{
+    background-color: turquoise;
+    color: black;
+}
+.footer-content{
+    word-spacing: 10px;
+    border: 2px;
+    color: rgb(8, 11, 15);
+    background: linear-gradient(rgb(241, 191, 185),rgb(252, 160, 157));
+}
+body{
+    background-color: black;
+} 
